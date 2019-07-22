@@ -6,6 +6,9 @@ defaults:
   data_hash: 'yaml_data'
 
 hierarchy:
+  - name: 'Icinga Vendor'
+    path: 'vendor-%{facts.icinga2_vendor}.yaml'
+
   - name: 'Operating System'
     path: '%{facts.os.name}.yaml'
 

@@ -1,0 +1,16 @@
+---
+icinga2::globals::package_name: icinga2
+icinga2::globals::service_name: icinga2
+icinga2::globals::service_reload: service icinga2 reload
+icinga2::globals::conf_dir: /neteye/local/icinga2/conf/icinga2
+icinga2::globals::lib_dir: /usr/lib
+icinga2::globals::log_dir: /neteye/local/icinga2/data/log/icinga2
+icinga2::globals::run_dir: /var/run/icinga2
+icinga2::globals::spool_dir: /neteye/local/icinga2/data/spool/icinga2
+icinga2::globals::cache_dir: /neteye/local/icinga2/data/cache/icinga2
+icinga2::globals::cert_dir: /neteye/local/icinga2/data/lib/icinga2/certs
+icinga2::globals::ca_dir: /neteye/local/icinga2/data/lib/icinga2/certs
+icinga2::globals::constants:
+  PluginDir: /usr/lib64/neteye/monitoring/plugins
+  PluginContribDir: /usr/lib64/neteye/monitoring/plugins
+  ManubulonPluginDir: /usr/lib64/neteye/monitoring/plugins
